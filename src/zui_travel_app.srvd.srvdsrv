@@ -1,0 +1,6 @@
+@EndUserText.label: 'TRAVEL APPLICATION SRV DEF'
+define service ZUI_TRAVEL_APP {
+  expose ZXX_C_TRAVEL_M;
+  expose zxx_c_booking_m;
+  expose zxx_c_booksuppl_m;
+}
